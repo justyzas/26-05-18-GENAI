@@ -19,7 +19,7 @@ Course goals:
 1. Demystify generative AI and build confidence through quick wins
 2. Teach core skills: clear prompting, picking models at a glance, verifying outputs, and small automations you can actually use
 
-### **Day 1: Introduction to Generative AI**
+### **Day 1: Introduction to Generative AI and Mastering ChatGPT Use Cases**
 
 - Course overview, objectives, and learning path
 - ChatGPT usage and practical applications
@@ -27,7 +27,16 @@ Course goals:
 - Understanding AI platforms and ecosystems
 - Gen-AI as a transformative technology
 - Core concepts of LLMs and their capabilities
-- **Lab:** Hands-on ChatGPT exploration and prompt experimentation
+- Information seeking
+- Web search
+- Email generation
+- Post generation
+- Prompt engineering
+- Travel planning
+- Basic document analysis
+- Document generation
+- and others
+- **Lab:** Hands-on ChatGPT exploration and prompt experimentation; Prompt engineering workshop with real-world scenarios
 
 ### **Day 2: Understanding LLM Models and Economics**
 
@@ -48,42 +57,25 @@ Course goals:
 - Context size constraints and memory limitations
 - **Lab:** Identifying hallucinations and testing model limits
 
-### **Day 4: Mastering ChatGPT Use Cases**
-
-- Information seeking
-- Web search
-- Email generation
-- Post generation
-- Prompt engineering
-- Travel planning
-- Basic document analysis
-- Document generation
-- and others
-- **Lab:** Prompt engineering workshop with real-world scenarios
-
 ---
 
 ## **Week 2: Exploring AI Platform Alternatives**
 
-### **Day 1: Gemini and Reasoning Models**
+### **Day 1: Gemini, Reasoning Models, and Comprehensive LLM Platform Tour**
 
 - Gemini platform overview and capabilities
 - Introduction to reasoning models and their applications
 - Gemini features and tooling
 - Gemini model family and their strengths
 - Hands-on exploration with Gemini
-- **Lab:** Create and test prompts using Gemini
-
-### **Day 2: Comprehensive LLM Platform Tour**
-
 - Anthropic and the Claude LLM family
 - Claude's unique capabilities and conversation style
 - Censorship and guard-rails of generative AI
 - X.ai's Grok platform and real-time capabilities
 - Venice.ai for uncensored models
-- **Lab:** Comparative analysis using different platforms
+- **Lab:** Create and test prompts using Gemini; Comparative analysis using different platforms
 
-### **Day 3: Document Analysis with NotebookLM**
+### **Day 2: Document Analysis with NotebookLM**
 
 - Import PDFs, Google Docs/Slides, and links as sources
 - Ask source-grounded questions with inline citations you can verify
@@ -92,7 +84,7 @@ Course goals:
 - Export notes to Google Docs or copy structured outputs
 - **Lab:** Upload 3 sample docs and build a mini research notebook: create a comparison table, list key insights with citations, and draft a one-paragraph summary
 
-### **Day 4: Perplexity for Faster Research**
+### **Day 3: Perplexity for Faster Research**
 
 - Introduction to Perplexity AI and its Deep Research mode
 - Ask questions and get answers with sources and citations
@@ -122,21 +114,17 @@ Course goals:
 - File uploads and context management
 - **Lab:** Set up projects for different business needs
 
-### **Day 3: ChatGPT Voice Mode and Accessibility**
+### **Day 3: ChatGPT Voice Mode, Accessibility, and Search Integration**
 
 - Advanced voice mode capabilities
 - Hands-free AI interaction for productivity
 - Voice-to-text workflows
 - Accessibility features for diverse users
-- **Lab:** Use voice mode for meeting preparation
-
-### **Day 4: ChatGPT Search Integration**
-
 - Understanding ChatGPT Search capabilities
 - Real-time information retrieval
 - Comparing search results with traditional search engines
 - Best practices for search-enabled prompts
-- **Lab:** Conduct research using ChatGPT Search
+- **Lab:** Use voice mode for meeting preparation; Conduct research using ChatGPT Search
 
 ---
 
@@ -158,21 +146,17 @@ Course goals:
 - Prompt patterns: subject, style, negatives
 - **Lab:** Make/edit 3 marketing assets in both
 
-### **Day 3: ElevenLabs Text-to-Speech**
+### **Day 3: ElevenLabs Text-to-Speech and Sora 2 Video**
 
 - TTS, STT, dubbing, cloning
 - Models: v3, Flash, Turbo, Multilingual
 - Controls: stability, style, latency
 - Responsible voice use and deployment
-- **Lab:** Bilingual demo audio + captions
-
-### **Day 4: Sora 2 Video**
-
 - Prompting: subject, motion, camera
 - Features: consistency, remix, auto audio
 - Limits: physics realism, policies
 - Compare with Veo/Kling/Ray
-- **Lab:** Generate a 30s concept and iterate
+- **Lab:** Bilingual demo audio + captions; Generate a 30s concept and iterate
 
 ## **Week 5: Generative AI as Technology**
 
@@ -184,13 +168,17 @@ Course goals:
 - Offline privacy and performance tips
 - **Lab:** Benchmark two local models via API
 
-### **Day 2: OpenAI vs Google AI Studio**
+### **Day 2: OpenAI, Google AI Studio, and OpenRouter**
 
 - OpenAI Responses API + tools
 - Gemini 2.5 tiers and Live API
 - Compare pricing/context/safety
 - Cross-platform workflow patterns
-- **Lab:** Same assistant on both; compare
+- Unified API, routing, fallbacks, ZDR
+- Headers for attribution/provider prefs
+- Streaming, structured outputs, caching
+- When to use vs native APIs
+- **Lab:** Same assistant on both; compare; Compare two models for one task
 
 ### **Day 3: Lovable.dev Website**
 
@@ -199,14 +187,6 @@ Course goals:
 - When to use vs custom code/CMS
 - Publish previews and collect feedback
 - **Lab:** Ship a one-page site
-
-### **Day 4: OpenRouter (Any Model)**
-
-- Unified API, routing, fallbacks, ZDR
-- Headers for attribution/provider prefs
-- Streaming, structured outputs, caching
-- When to use vs native APIs
-- **Lab:** Compare two models for one task
 
 ## **Week 6: Advanced Generative AI**
 
@@ -226,43 +206,35 @@ Course goals:
 - Categorize updates: safety, capability, tooling, policy
 - **Lab:** Build a personal feed and draft a weekly brief
 
-### **Day 3: GitHub Copilot (Vibe Coding)**
+### **Day 3: GitHub Copilot (Vibe Coding) and Build with OpenAI Codex Cloud**
 
 - Inline completions, chat, agent mode in VS Code
 - Set up extension; pick models and custom instructions
-- Add MCP tools for projectâ€‘specific tasks
+- Add MCP tools for project-specific tasks
 - Write tests first, let Copilot implement, then review
-- **Lab:** Implement a small feature + tests with Copilot
-
-### **Day 4: Build with OpenAI Codex Cloud**
-
 - Read/modify/run code in cloud environments
 - GitHub integration; ask vs code modes and PR diffs
-- Background tasks and multiâ€‘step assignments
+- Background tasks and multi-step assignments
 - Security: MFA/SSO, audit trails for code changes
-- **Lab:** Delegate a feature to Codex and review the PR
+- **Lab:** Implement a small feature + tests with Copilot; Delegate a feature to Codex and review the PR
 
 ## **Week 7: n8n AI Automation and AI Agents**
 
-### **Day 1: Introduction to No-Code Automation**
+### **Day 1: Introduction to No-Code Automation and AI Agents**
 
 - What is no-code automation and why it matters for business
 - Introduction to n8n platform and capabilities
 - n8n vs Make.com: features, pricing, and use cases
 - Understanding execution-based vs task-based pricing
 - Exploring n8n templates library (600+ community templates)
-- **Lab:** Explore n8n interface and browse templates
-
-### **Day 2: Understanding Tools and AI Agents**
-
 - What constitutes a "tool" in Generative AI
 - Difference between AI tools and AI agents
 - Why 2025 is the year of AI agents
 - AI agent architecture and autonomy
 - Business applications of AI agents
-- **Lab:** Design conceptual AI agent workflows
+- **Lab:** Explore n8n interface and browse templates; Design conceptual AI agent workflows
 
-### **Day 3: Building Your First Agents**
+### **Day 2: Building Your First Agents**
 
 - Setting up n8n (cloud or self-hosted)
 - Understanding workflows, nodes, and triggers
@@ -271,7 +243,7 @@ Course goals:
 - Connecting agents to AI models
 - **Lab:** Build and test calendar and Gmail agents
 
-### **Day 4: Multi-Agent Systems**
+### **Day 3: Multi-Agent Systems**
 
 - Building a research agent (web search + email combined)
 - Coordinating multiple agents in workflows
@@ -297,18 +269,14 @@ Course goals:
 - Evaluate answers for accuracy and coverage
 - **Lab:** Implement an expert agent over your docs + web search
 
-### **Day 3: n8n Project - Build**
+### **Day 3: n8n Project – Build and Test & Ship**
 
 - Choose use case and success metrics
 - Design workflow: triggers, nodes, approvals
 - Add logging, retries, and error paths
 - Connect to LLM(s) and external APIs
-- **Lab:** Build the initial workflow and dry-run with test data
-
-### **Day 4: n8n Project - Test & Ship**
-
 - Test cases, rate limits, and costs
 - Monitoring, alerts, and audit trail
 - Secure secrets and permissions
 - Demo and docs for handover
-- **Lab:** Run end-to-end, fix issues, and present results
+- **Lab:** Build the initial workflow and dry-run with test data; Run end-to-end, fix issues, and present results
