@@ -8,3 +8,37 @@
 **Kurso pabaiga** 2026-07-15
 
 **Paskaitos vyksta** Pirmadieniais, Trečiadieniais, Ketvirtadieniais 18:00 - 20:30 **išskyrus nedarbo dienas**
+
+**Pertraukėlė planuojama** 19:30 Trunka 10 min
+
+---
+
+- Susipažinimas
+- Kurso apžvalga - 8 savaičių turinys
+- Kas yra generatyvusis DI ir **LLM**?
+- ChatGPT naudojimas ir praktinės taikymo sritys
+  - Techninių kliūčių sprendimai pagal error kodus ir screenshotus;
+  - Informacijos apdorojimas ir įvertinimas;
+  - Agentų kūrimas;
+  - Vertimai į kitas kalbas;
+  - Teksto generavimas skirtingiems atvejams;
+  - Teksto tono keitimas, koregavimas;
+  - Svarbios informacijos atranka iš daug teksto, kito failo;
+  - Informacijos struktūravimas;
+  - Įvykusio pokalbio transkribcijos analizė ir informacijos sugrupavimas
+  - Informacijos paieška internete;
+  - Elektroninių laiškų rašymas
+  - Įrašų kūrimas (Postų, aprašymų)
+  - Kelionių planavimas
+  - Promptų kūrimas (inžinerija)
+  - Dokumentų kūrimas
+- Generatyvinis DI nėra deterministinis;
+- **Apibendrinimui: Platforma vs. Modelis**
+- Platforma suteikia:
+  - Paieškos variklio įrankis modeliui;
+  - Skirtingus DI modelius jų naudojimui;
+  - Atmintį, personalizavimą;
+  - Kodo paleidimo įrankis;
+  - Leidžia naudotis balso sąsaja
+  - Leidžia susikurti sau agentą
+  - Leidžia grupuoti informaciją pagal projektą
