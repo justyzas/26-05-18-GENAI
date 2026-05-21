@@ -57,7 +57,7 @@
 - ChatGPT modelių variantai: GPT‑5, GPT‑4.1, GPT‑5‑mini
 - Tokenai (žetonai) - Modelio kalba
 - Tokenų (žetonų) kainos
-- Konteksto langas
+- Konteksto langas (matuojamas tokenais)
 - Žetonų pagrindu skaičiuojamos kainos: įvesties ir išvesties sąnaudos
 
 https://platform.openai.com/tokenizer
@@ -97,3 +97,44 @@ KAINA = ((Įvesties žetonai × įvesties kaina) + (Išvesties žetonai × išve
 ```
 KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 3380 / 1 000 000 =  0.00338$
 ```
+
+# Diena 3: LLM galimybės ir ribotumai
+
+> GPT - Generative Pretrained Transformer
+
+- ChatGPT Code Interpreter įrankiai ir duomenų analizė
+- Pagrindinių LLM silpnybių supratimas
+  - 1. Klystama įtikinamai (halucinacijos)
+       Modelis gali pateikti atsakymą, kuris skamba logiškai, bet yra neteisingas. Tai vadinama **halucinacija** – modelis nesupranta, kad klysta.
+  - 2. Žinios gali būti pasenusios
+       Jeigu modelis neturi prieigos prie naujausių šaltinių arba jų nepatikrina, jis gali remtis sena informacija. Sprendimas: naudoti žiniatinklio paiešką aktualioms temoms. **Knowledge Cutoff Date**
+  - 3. Nėra tikro kalbos supratimo.
+       LLM atpažįsta kalbos, duomenų ir konteksto dėsningumus, tačiau neturi tikro sąmoningo supratimo, patirties ar intencijų – tik statistiniai ryšiai tarp žodžių.
+  - 4. Ribotas konteksto langas
+       Modelis gali apdoroti tik tam tikrą teksto kiekį vienu metu. Labai ilguose dokumentuose jis gali praleisti detales arba pamesti ankstesnį kontekstą. **Context compacting**
+  - 5. Rezultatai priklauso nuo užklausos kokybės.
+       Neaiškūs, per platūs ar prieštaringi klausimai dažnai duoda prastesnius atsakymus. `Aiškios instrukcijos = Geri rezultatai`. **Prompt Engineering**
+  - 6. Ribotas patikimumas skaičiavimuose.
+       Modeliai gali suklysti matematikoje, loginiuose žingsniuose ar skaičiuodami be specialių įrankių (Code Interpreter). Svarbius skaičiavimus tikrinkite atskirai.
+  - 7. Šališkumas.
+       LLM mokosi iš žmonių sukurtų tekstų, todėl gali perimti kultūrinius, socialinius ar politinius šališkumus, net to nepastebėdamas.
+  - 8. Sunkumai su nišinėmis temomis
+       Jei tema reta, nauja ar blogai dokumentuota, modelis gali spėlioti – ir tai daryti užtikrintai.
+  - 9. **Privatumo ir saugumo rizikos.**
+       Nereikėtų kelti slaptų duomenų (asmens kodai, slaptažodžiai, komercinės paslaptys), nes priklausomai nuo sistemos nustatymų jie gali būti apdorojami ar saugomi.
+  - 10. Negali pakeisti profesionalaus patarimo.
+        Teisės, medicinos ir finansų srityse LLM gali padėti pasiruošti klausimus specialistui, bet **negali pakeisti eksperto konsultacijos**.
+  - 11. Prastas savęs vertinimas.
+        Modelis ne visada tiksliai žino, kada jis nežino. Todėl svarbu prašyti šaltinių ir patikrinimo – ypač svarbiems sprendimams.
+
+- LLM kaip tikimybių mašinos: kaip jos iš tikrųjų veikia
+- Halucinacijos: atpažinimas ir mažinimo strategijos
+  - Tikrinti šaltinius
+  - Paklausti antros nuomonės žmogaus
+  - Paklausti antros nuomonės DI
+  - Rašyti aiškesnius promptus
+  - **Įkelti reikalingą kontekstą spręsti užduočiai.**
+- Žinių ribotumas ir mokymo duomenų ribos
+- Konteksto dydžio apribojimai ir atminties limitai
+- **praktinis darbas**: Halucinacijų atpažinimas ir modelio ribų testavimas
+- **praktinis darbas**: Pagalvoti, kaip išprovokuoti kiekvieną iš LLM limitacijų.
