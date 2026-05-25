@@ -138,3 +138,39 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 - Konteksto dydžio apribojimai ir atminties limitai
 - **praktinis darbas**: Halucinacijų atpažinimas ir modelio ribų testavimas
 - **praktinis darbas**: Pagalvoti, kaip išprovokuoti kiekvieną iš LLM limitacijų.
+
+---
+
+## **2 savaitė: DI platformų alternatyvos**
+
+### **Diena 1: Gemini, samprotavimo modeliai ir išsamus LLM platformų turas**
+
+- Gemini platformos apžvalga ir galimybės
+
+**Gemini stiprybės:**
+| Stiprybė | Kodėl svarbu |
+|----------|-------------|
+| Integracija su Google | Gmail, Docs, Drive, YouTube tiesiai sąsajoje |
+| Ilgas kontekstas | Gemini 2.5 Pro – iki 1 mln. žetonų |
+| Multimodalumas | Tekstas, vaizdas, garsas, vaizdo įrašai |
+| Realaus laiko paieška | Google paieška integruota pagal nutylėjimą |
+
+- Įvadas į samprotavimo modelius ir jų taikymą
+- Gemini funkcijos ir įrankiai 
+     - Atminties valdymas, pridėti naujų atminties segmentų, trinti senus 
+     - Asmeninės instrukcijos. 
+     - Paieškos variklio funkcija
+     - Kodo paleidimo funkcija
+     - Nuotraukas generuojančio modelio įrankis
+     - Leidimas pasiekti YouTube platformos vaizdo įrašus
+     - Prieiga prie "Google Workspace"
+- Gemini modelių šeima ir jų stiprybės
+
+---
+<!--- Praktinis darbas su Gemini
+- Anthropic ir Claude LLM šeima
+- Claude unikalios galimybės ir pokalbio stilius
+- Cenzūra ir generatyviojo DI saugikliai
+- X.ai Grok platforma ir realaus laiko galimybės
+- Venice.ai necenzūruotiems modeliams
+- **praktinis darbas:** Kurkite ir testuokite prompts su Gemini; Lyginamoji analizė naudojant skirtingas platformas -->
