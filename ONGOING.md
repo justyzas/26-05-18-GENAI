@@ -165,12 +165,41 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
      - Leidimas pasiekti YouTube platformos vaizdo įrašus
      - Prieiga prie "Google Workspace"
 - Gemini modelių šeima ir jų stiprybės
+- Praktinis darbas su Gemini
+- **praktinis darbas:** Kurkite ir testuokite prompts su Gemini; Lyginamoji analizė naudojant skirtingas platformas
 
 ---
-<!--- Praktinis darbas su Gemini
+
+
+### **Diena 2: Dokumentų analizė su NotebookLM**
+
 - Anthropic ir Claude LLM šeima
 - Claude unikalios galimybės ir pokalbio stilius
 - Cenzūra ir generatyviojo DI saugikliai
-- X.ai Grok platforma ir realaus laiko galimybės
+     - Smurtinis turinys;
+     - Kenkėjiški instruktavimo žingsniai;
+     - Vengia pateikti informaciją apie žmogų dėl BDAR;
+     - Karinių/politinių temų vangumas;
 - Venice.ai necenzūruotiems modeliams
-- **praktinis darbas:** Kurkite ir testuokite prompts su Gemini; Lyginamoji analizė naudojant skirtingas platformas -->
+- X.ai Grok platforma ir realaus laiko galimybės
+
+| Platforma | Saugikliai | Pastaba                               |
+| --------- | ---------- | ------------------------------------- |
+| ChatGPT   | Vidutiniai | Gerai balansuoja kūrybiškumą ir saugą |
+| Claude    | Aukšti     | Labiau atsargus su jautriomis temomis |
+| Gemini    | Vidutiniai | Google politika                       |
+| Grok      | Žemesni    | Daugiau leidžia "pilkose" zonose      |
+| Venice.ai | Minimalūs  | Vartotojo atsakomybė                  |
+
+## NotebookLM
+
+- Importuokite PDF, Google Docs/Slides ir nuorodas kaip šaltinius
+ - Užduokite į šaltiniais pagrįstus klausimus su įterptomis, patikrinamomis citatomis
+
+> Kuo paprastesnį, minimalesnį darbą gauna DI modelis - tuo jis geriau susidoroja su užduotimi ir pateikia smulkesnį/tikslesnį atsakymą
+
+- Ištraukite lenteles, objektus, laiko juostas ir lyginkite dokumentus greta;
+- Automatiškai kurkite santraukas, užrašų korteles ir garso apžvalgas
+- Eksportuokite užrašus į Google Docs arba kopijuokite struktūrizuotus rezultatus
+
+- **praktinis darbas:** Įkelkite 3 pavyzdinius dokumentus ir sukurkite mini tyrimų užrašinę: sudarykite palyginamąją lentelę, išvardykite svarbiausias įžvalgas su citatomis ir parenkite vieno pastraipos santrauką 
