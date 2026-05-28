@@ -203,3 +203,45 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 - Eksportuokite užrašus į Google Docs arba kopijuokite struktūrizuotus rezultatus
 
 - **praktinis darbas:** Įkelkite 3 pavyzdinius dokumentus ir sukurkite mini tyrimų užrašinę: sudarykite palyginamąją lentelę, išvardykite svarbiausias įžvalgas su citatomis ir parenkite vieno pastraipos santrauką 
+
+
+ ### **Diena 3: Perplexity – greitesniems tyrimams**
+
+- Perplexity AI ir jo Deep Research režimo įvadas
+- Užduokite klausimus ir gaukite atsakymus su šaltiniais bei citatomis
+
+
+| Klausimas | Geriausias įrankis | Kodėl |
+|-----------|-------------------|-------|
+| Realaus laiko informacija (kaina, oras, naujienos) | **Perplexity** | Greičiausiai, visada su šaltiniais |
+| Kelių savo dokumentų analizė | **NotebookLM** | Tiksliai iš jūsų šaltinių |
+| Kūrybinis rašymas, formatavimas | **ChatGPT / Claude** | Geriausias generavimui |
+| Greitas fakto patikrinimas | **Perplexity** | Šaltiniai matomi iš karto |
+| Gilios temos studijos | **Perplexity Deep Research** | Visapusiška ataskaita |
+| Asmeninių dokumentų klausimai | **NotebookLM** | Tik jūsų šaltiniai |
+
+
+- Kada rinktis greitus atsakymus, o kada Deep Research (3 minučių išsamios ataskaitos)
+- Kaip skaityti, tikrinti ir vertinti citatas
+- Eksportuokite ir dalinkitės rezultatais (PDF, dokumentai, Perplexity Pages)
+- Perplexity, NotebookLM ir ChatGPT palyginimas tyrimams
+
+- **praktinis darbas:** Tą pačią užduotį vykdykite Perplexity, NotebookLM ir ChatGPT; palyginkite rezultatus
+---
+
+### LLM parametrai
+
+- **Temperatūra** - LLM parametras atsakingas už modelio tikslumą ir gebėjimą kūrybiškai atsakyti naudotojui; 
+     - Žema temperatūra modeliui didina tikslumą, patikimumą
+     - Aukšta temperatūra modeliui didina kūrybiškumą, modelis drąsiau nagrinėja neišbandytas idėjas
+- **Mastymo lygis (thinking level)** -  LLM parametras, nustatantis, kiek resursų skirti spręsti konkrečiai užduočiai
+     - Jei reikia išsamesnio tyrimo, kūrybiškesnio atsakymo naudoti aukštesnį mastymo lygį;
+     - Jei reikia greito paprasto, nesofistikuoto atsakymo naudoti žemesnį mastymo lygį;
+- **Saugumo nustatymai (Safety setttings)** - reguliuoja modelio cenzūruotumą
+     - Harassment
+     - Hate
+     - Sexually explicicit
+     - Dangerous Content
+- **Output length** - Nustato kokio maksimalaus ilgumo (tokenais) atsakymą modelis gali pateikti;
+- **Top P (Sekančio žodžio TOP)** - Parametras nusakantis iš top kokio procento žodžių modelis galės rinktis generuodamas sekantį token.
+
