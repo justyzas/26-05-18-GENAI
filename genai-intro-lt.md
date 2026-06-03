@@ -112,6 +112,9 @@ Kurso tikslai:
 - Pokalbių organizavimas pagal temą ar klientą
 - Individualios instrukcijos kiekvienam projektui
 - Failų įkėlimas ir konteksto valdymas
+- Context Engineering
+---
+- Prompt Engineering
 - **praktinis darbas:** Sukonfigūruokite projektus skirtingiems verslo poreikiams
 
 ### **Diena 3: ChatGPT balso režimas, prieinamumas ir paieškos integracija**

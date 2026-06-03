@@ -268,10 +268,41 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 
 ---
 
-<!-- ### **Diena 2: ChatGPT Projects organizavimui**
+ ### **Diena 2: ChatGPT Projects organizavimui**
 
 - ChatGPT Projects funkcijos supratimas
-- Pokalbių organizavimas pagal temą ar klientą
+ - Pokalbių organizavimas pagal temą ar klientą
 - Individualios instrukcijos kiekvienam projektui
 - Failų įkėlimas ir konteksto valdymas
+     - Įkeliant failus
+     - Per pokalbį
+- Konteksto inžinerija (Context Engineering)
+- Prompt Engineering
+     - Tikslas - ką tiksliai turi daryti
+     - Konteksto inžinerija;
+     - Pavyzdžiai, kaip turėtų būti sprendžiama problema;
+     - Formatas (Sąrašas numeruotas/nenumeruotas/ lentelė / failas / WORD dok. / PDF / Excel lentelė / Pastraipa ir t.t.)
+
+
+
+## 4 elementai gero prompto
+
+Įsiminti paprastai: **VKFP** — Vaidmuo, Kontekstas, Formatas, Pavyzdys.
+
+| Elementas | Klausimas, į kurį atsako | Pavyzdys |
+|-----------|--------------------------|----------|
+| **Vaidmuo / užduotis** | Ką tiksliai daryti? | „Parašyk el. laišką" / „Apibendrink" / „Sugalvok 5 idėjas" |
+| **Kontekstas** | Kam ir kokioje situacijoje? | „Klientui, kuris vėluoja sumokėti, bet jį norime išlaikyti" |
+| **Formatas** | Kaip turi atrodyti rezultatas? | „3 sakiniai", „sąrašas", „lentelė", „mandagus tonas" |
+| **Pavyzdys** (neprivalomas) | Į ką orientuotis? | „Panašiai kaip šis ankstesnis laiškas: [...]" |
+
+**Silpnas promptas:**
+> Parašyk laišką klientui.
+
+**Stiprus promptas:**
+> Parašyk trumpą (3–4 sakinių) el. laišką klientui, kuris jau dvi savaites vėluoja apmokėti sąskaitą. Tonas mandagus, bet aiškus — norime gauti mokėjimą, bet išlaikyti gerus santykius. Pabaigoje pasiūlyk konkretų terminą.
+
+<!--
+---
+
 - **praktinis darbas:** Sukonfigūruokite projektus skirtingiems verslo poreikiams -->
