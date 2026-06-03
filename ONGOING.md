@@ -245,3 +245,33 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 - **Output length** - Nustato kokio maksimalaus ilgumo (tokenais) atsakymą modelis gali pateikti;
 - **Top P (Sekančio žodžio TOP)** - Parametras nusakantis iš top kokio procento žodžių modelis galės rinktis generuodamas sekantį token.
 
+--- 
+## **3 savaitė: Pažangios ChatGPT funkcijos**
+
+### **Diena 1: ChatGPT Canvas dokumentų kūrimui**
+
+- Įvadas į ChatGPT Canvas sąsają
+- Bendras dokumentų kūrimas su DI
+- Iteratyvus tobulinimas ir versijavimas
+- Canvas naudojimas ilgo formato rašymui ir redagavimui
+- **praktinis darbas:** Sukurkite verslo *pasiūlymą/komercinį pasiūlymą* naudodami Canvas 
+--- 
+### Ollama
+
+
+- Ollama - įrankis, kuris yra skirtas paleisti AI modelius iš Ollama platformos kompiuteryje, naudojant kompiuterio resursus arba per cloud prieigą
+- Modelio parametrų skaičius - rodiklis, nurodantis neuroninių tinklų skaičių modelyje.
+- Keliant modelio parametrų skaičių išauga RAM (operatyviosios atm. sunaudojimas), ir GPU (Vaizdo plokštės/procesoriaus) sunaudojimas
+
+
+- **praktinis darbas:** Įsidiegti ir paleisti savo pasirinktą AI modelį naudojant Ollama programą
+
+---
+
+<!-- ### **Diena 2: ChatGPT Projects organizavimui**
+
+- ChatGPT Projects funkcijos supratimas
+- Pokalbių organizavimas pagal temą ar klientą
+- Individualios instrukcijos kiekvienam projektui
+- Failų įkėlimas ir konteksto valdymas
+- **praktinis darbas:** Sukonfigūruokite projektus skirtingiems verslo poreikiams -->
