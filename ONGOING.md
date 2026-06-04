@@ -156,30 +156,29 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 | Realaus laiko paieška | Google paieška integruota pagal nutylėjimą |
 
 - Įvadas į samprotavimo modelius ir jų taikymą
-- Gemini funkcijos ir įrankiai 
-     - Atminties valdymas, pridėti naujų atminties segmentų, trinti senus 
-     - Asmeninės instrukcijos. 
-     - Paieškos variklio funkcija
-     - Kodo paleidimo funkcija
-     - Nuotraukas generuojančio modelio įrankis
-     - Leidimas pasiekti YouTube platformos vaizdo įrašus
-     - Prieiga prie "Google Workspace"
+- Gemini funkcijos ir įrankiai
+  - Atminties valdymas, pridėti naujų atminties segmentų, trinti senus
+  - Asmeninės instrukcijos.
+  - Paieškos variklio funkcija
+  - Kodo paleidimo funkcija
+  - Nuotraukas generuojančio modelio įrankis
+  - Leidimas pasiekti YouTube platformos vaizdo įrašus
+  - Prieiga prie "Google Workspace"
 - Gemini modelių šeima ir jų stiprybės
 - Praktinis darbas su Gemini
 - **praktinis darbas:** Kurkite ir testuokite prompts su Gemini; Lyginamoji analizė naudojant skirtingas platformas
 
 ---
 
-
 ### **Diena 2: Dokumentų analizė su NotebookLM**
 
 - Anthropic ir Claude LLM šeima
 - Claude unikalios galimybės ir pokalbio stilius
 - Cenzūra ir generatyviojo DI saugikliai
-     - Smurtinis turinys;
-     - Kenkėjiški instruktavimo žingsniai;
-     - Vengia pateikti informaciją apie žmogų dėl BDAR;
-     - Karinių/politinių temų vangumas;
+  - Smurtinis turinys;
+  - Kenkėjiški instruktavimo žingsniai;
+  - Vengia pateikti informaciją apie žmogų dėl BDAR;
+  - Karinių/politinių temų vangumas;
 - Venice.ai necenzūruotiems modeliams
 - X.ai Grok platforma ir realaus laiko galimybės
 
@@ -194,7 +193,7 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 ## NotebookLM
 
 - Importuokite PDF, Google Docs/Slides ir nuorodas kaip šaltinius
- - Užduokite į šaltiniais pagrįstus klausimus su įterptomis, patikrinamomis citatomis
+- Užduokite į šaltiniais pagrįstus klausimus su įterptomis, patikrinamomis citatomis
 
 > Kuo paprastesnį, minimalesnį darbą gauna DI modelis - tuo jis geriau susidoroja su užduotimi ir pateikia smulkesnį/tikslesnį atsakymą
 
@@ -202,24 +201,21 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 - Automatiškai kurkite santraukas, užrašų korteles ir garso apžvalgas
 - Eksportuokite užrašus į Google Docs arba kopijuokite struktūrizuotus rezultatus
 
-- **praktinis darbas:** Įkelkite 3 pavyzdinius dokumentus ir sukurkite mini tyrimų užrašinę: sudarykite palyginamąją lentelę, išvardykite svarbiausias įžvalgas su citatomis ir parenkite vieno pastraipos santrauką 
+- **praktinis darbas:** Įkelkite 3 pavyzdinius dokumentus ir sukurkite mini tyrimų užrašinę: sudarykite palyginamąją lentelę, išvardykite svarbiausias įžvalgas su citatomis ir parenkite vieno pastraipos santrauką
 
-
- ### **Diena 3: Perplexity – greitesniems tyrimams**
+### **Diena 3: Perplexity – greitesniems tyrimams**
 
 - Perplexity AI ir jo Deep Research režimo įvadas
 - Užduokite klausimus ir gaukite atsakymus su šaltiniais bei citatomis
 
-
-| Klausimas | Geriausias įrankis | Kodėl |
-|-----------|-------------------|-------|
-| Realaus laiko informacija (kaina, oras, naujienos) | **Perplexity** | Greičiausiai, visada su šaltiniais |
-| Kelių savo dokumentų analizė | **NotebookLM** | Tiksliai iš jūsų šaltinių |
-| Kūrybinis rašymas, formatavimas | **ChatGPT / Claude** | Geriausias generavimui |
-| Greitas fakto patikrinimas | **Perplexity** | Šaltiniai matomi iš karto |
-| Gilios temos studijos | **Perplexity Deep Research** | Visapusiška ataskaita |
-| Asmeninių dokumentų klausimai | **NotebookLM** | Tik jūsų šaltiniai |
-
+| Klausimas                                          | Geriausias įrankis           | Kodėl                              |
+| -------------------------------------------------- | ---------------------------- | ---------------------------------- |
+| Realaus laiko informacija (kaina, oras, naujienos) | **Perplexity**               | Greičiausiai, visada su šaltiniais |
+| Kelių savo dokumentų analizė                       | **NotebookLM**               | Tiksliai iš jūsų šaltinių          |
+| Kūrybinis rašymas, formatavimas                    | **ChatGPT / Claude**         | Geriausias generavimui             |
+| Greitas fakto patikrinimas                         | **Perplexity**               | Šaltiniai matomi iš karto          |
+| Gilios temos studijos                              | **Perplexity Deep Research** | Visapusiška ataskaita              |
+| Asmeninių dokumentų klausimai                      | **NotebookLM**               | Tik jūsų šaltiniai                 |
 
 - Kada rinktis greitus atsakymus, o kada Deep Research (3 minučių išsamios ataskaitos)
 - Kaip skaityti, tikrinti ir vertinti citatas
@@ -227,25 +223,27 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 - Perplexity, NotebookLM ir ChatGPT palyginimas tyrimams
 
 - **praktinis darbas:** Tą pačią užduotį vykdykite Perplexity, NotebookLM ir ChatGPT; palyginkite rezultatus
+
 ---
 
 ### LLM parametrai
 
-- **Temperatūra** - LLM parametras atsakingas už modelio tikslumą ir gebėjimą kūrybiškai atsakyti naudotojui; 
-     - Žema temperatūra modeliui didina tikslumą, patikimumą
-     - Aukšta temperatūra modeliui didina kūrybiškumą, modelis drąsiau nagrinėja neišbandytas idėjas
-- **Mastymo lygis (thinking level)** -  LLM parametras, nustatantis, kiek resursų skirti spręsti konkrečiai užduočiai
-     - Jei reikia išsamesnio tyrimo, kūrybiškesnio atsakymo naudoti aukštesnį mastymo lygį;
-     - Jei reikia greito paprasto, nesofistikuoto atsakymo naudoti žemesnį mastymo lygį;
+- **Temperatūra** - LLM parametras atsakingas už modelio tikslumą ir gebėjimą kūrybiškai atsakyti naudotojui;
+  - Žema temperatūra modeliui didina tikslumą, patikimumą
+  - Aukšta temperatūra modeliui didina kūrybiškumą, modelis drąsiau nagrinėja neišbandytas idėjas
+- **Mastymo lygis (thinking level)** - LLM parametras, nustatantis, kiek resursų skirti spręsti konkrečiai užduočiai
+  - Jei reikia išsamesnio tyrimo, kūrybiškesnio atsakymo naudoti aukštesnį mastymo lygį;
+  - Jei reikia greito paprasto, nesofistikuoto atsakymo naudoti žemesnį mastymo lygį;
 - **Saugumo nustatymai (Safety setttings)** - reguliuoja modelio cenzūruotumą
-     - Harassment
-     - Hate
-     - Sexually explicicit
-     - Dangerous Content
+  - Harassment
+  - Hate
+  - Sexually explicicit
+  - Dangerous Content
 - **Output length** - Nustato kokio maksimalaus ilgumo (tokenais) atsakymą modelis gali pateikti;
 - **Top P (Sekančio žodžio TOP)** - Parametras nusakantis iš top kokio procento žodžių modelis galės rinktis generuodamas sekantį token.
 
---- 
+---
+
 ## **3 savaitė: Pažangios ChatGPT funkcijos**
 
 ### **Diena 1: ChatGPT Canvas dokumentų kūrimui**
@@ -254,55 +252,66 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 - Bendras dokumentų kūrimas su DI
 - Iteratyvus tobulinimas ir versijavimas
 - Canvas naudojimas ilgo formato rašymui ir redagavimui
-- **praktinis darbas:** Sukurkite verslo *pasiūlymą/komercinį pasiūlymą* naudodami Canvas 
---- 
-### Ollama
+- **praktinis darbas:** Sukurkite verslo _pasiūlymą/komercinį pasiūlymą_ naudodami Canvas
 
+---
+
+### Ollama
 
 - Ollama - įrankis, kuris yra skirtas paleisti AI modelius iš Ollama platformos kompiuteryje, naudojant kompiuterio resursus arba per cloud prieigą
 - Modelio parametrų skaičius - rodiklis, nurodantis neuroninių tinklų skaičių modelyje.
 - Keliant modelio parametrų skaičių išauga RAM (operatyviosios atm. sunaudojimas), ir GPU (Vaizdo plokštės/procesoriaus) sunaudojimas
 
-
 - **praktinis darbas:** Įsidiegti ir paleisti savo pasirinktą AI modelį naudojant Ollama programą
 
 ---
 
- ### **Diena 2: ChatGPT Projects organizavimui**
+### **Diena 2: ChatGPT Projects organizavimui**
 
 - ChatGPT Projects funkcijos supratimas
- - Pokalbių organizavimas pagal temą ar klientą
+- Pokalbių organizavimas pagal temą ar klientą
 - Individualios instrukcijos kiekvienam projektui
 - Failų įkėlimas ir konteksto valdymas
-     - Įkeliant failus
-     - Per pokalbį
+  - Įkeliant failus
+  - Per pokalbį
 - Konteksto inžinerija (Context Engineering)
 - Prompt Engineering
-     - Tikslas - ką tiksliai turi daryti
-     - Konteksto inžinerija;
-     - Pavyzdžiai, kaip turėtų būti sprendžiama problema;
-     - Formatas (Sąrašas numeruotas/nenumeruotas/ lentelė / failas / WORD dok. / PDF / Excel lentelė / Pastraipa ir t.t.)
-
-
+  - Tikslas - ką tiksliai turi daryti
+  - Konteksto inžinerija;
+  - Pavyzdžiai, kaip turėtų būti sprendžiama problema;
+  - Formatas (Sąrašas numeruotas/nenumeruotas/ lentelė / failas / WORD dok. / PDF / Excel lentelė / Pastraipa ir t.t.)
 
 ## 4 elementai gero prompto
 
 Įsiminti paprastai: **VKFP** — Vaidmuo, Kontekstas, Formatas, Pavyzdys.
 
-| Elementas | Klausimas, į kurį atsako | Pavyzdys |
-|-----------|--------------------------|----------|
-| **Vaidmuo / užduotis** | Ką tiksliai daryti? | „Parašyk el. laišką" / „Apibendrink" / „Sugalvok 5 idėjas" |
-| **Kontekstas** | Kam ir kokioje situacijoje? | „Klientui, kuris vėluoja sumokėti, bet jį norime išlaikyti" |
-| **Formatas** | Kaip turi atrodyti rezultatas? | „3 sakiniai", „sąrašas", „lentelė", „mandagus tonas" |
-| **Pavyzdys** (neprivalomas) | Į ką orientuotis? | „Panašiai kaip šis ankstesnis laiškas: [...]" |
+| Elementas                   | Klausimas, į kurį atsako       | Pavyzdys                                                    |
+| --------------------------- | ------------------------------ | ----------------------------------------------------------- |
+| **Vaidmuo / užduotis**      | Ką tiksliai daryti?            | „Parašyk el. laišką" / „Apibendrink" / „Sugalvok 5 idėjas"  |
+| **Kontekstas**              | Kam ir kokioje situacijoje?    | „Klientui, kuris vėluoja sumokėti, bet jį norime išlaikyti" |
+| **Formatas**                | Kaip turi atrodyti rezultatas? | „3 sakiniai", „sąrašas", „lentelė", „mandagus tonas"        |
+| **Pavyzdys** (neprivalomas) | Į ką orientuotis?              | „Panašiai kaip šis ankstesnis laiškas: [...]"               |
 
 **Silpnas promptas:**
+
 > Parašyk laišką klientui.
 
 **Stiprus promptas:**
+
 > Parašyk trumpą (3–4 sakinių) el. laišką klientui, kuris jau dvi savaites vėluoja apmokėti sąskaitą. Tonas mandagus, bet aiškus — norime gauti mokėjimą, bet išlaikyti gerus santykius. Pabaigoje pasiūlyk konkretų terminą.
 
-<!--
----
+- **praktinis darbas:** Sukonfigūruokite projektus skirtingiems verslo poreikiams
 
-- **praktinis darbas:** Sukonfigūruokite projektus skirtingiems verslo poreikiams -->
+### **Diena 3: ChatGPT balso režimas, prieinamumas ir paieškos integracija**
+
+- Pažangios balso režimo galimybės
+- Sąveika su DI be rankų – produktyvumui.
+- Garsas į tekstą darbo srautai.
+- Prieinamumo funkcijos įvairiems vartotojams.
+- ChatGPT Search galimybių supratimas.
+- Informacijos gavimas realiuoju laiku.
+- Paieškos rezultatų palyginimas su tradicinėmis paieškos sistemomis
+- Geriausios praktikos paiešką naudojantiems prompts
+- **praktinis darbas:** Naudokite balso režimą susitikimo pasiruošimui; Atlikite tyrimą naudodami ChatGPT Search
+
+---
