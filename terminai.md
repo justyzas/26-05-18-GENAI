@@ -36,6 +36,9 @@ Data, po kurios modelis nebeturi informacijos. Pvz., modelis išmokytas iki 2024
 **Multimodalus DI** _(Multimodal AI)_
 DI, galintis dirbti su keliais formatais vienu metu – tekstas, vaizdai, garsas, vaizdo įrašai. ChatGPT Vision yra multimodalus, nes supranta ir tekstą, ir paveikslėlius.
 
+**Unimodalus DI**
+DI sistema, galinti dirbti tik su **vienu duomenų tipu** vienu metu — pvz., tik su tekstu, tik su paveikslėliais arba tik su garsu. Priešingybė multimodaliam DI. Pavyzdžiai: GPT-3 (tekstas), DALL·E (vaizdai), Whisper (garsas).
+
 **Samprotavimo modeliai** _(Reasoning Models)_
 Pažangūs LLM, galintys spręsti sudėtingesnes logines ir matematines problemas žingsnis po žingsnio. Pavyzdžiai: OpenAI o3, Gemini 2.5 Pro.
 
@@ -97,9 +100,13 @@ Komercinė no-code automatizavimo platforma. Populiari alternatyva n8n. Intuityv
 ---
 
 ## 3. Techniniai terminai
+**UI** _(User Interface)_ - Vartotojo sąsaja — tai viskas, ką vartotojas mato ir su kuo sąveikauja programoje ar svetainėje: mygtukai, meniu, formos, spalvos, išdėstymas. UI tikslas — padaryti programą patogią ir suprantamą naudoti.
 
 **API** _(Application Programming Interface)_
 „Jungtis" tarp programų. Leidžia jūsų programai kalbėti su kita programa (pvz., siųsti klausimą ChatGPT iš savo sistemos ir gauti atsakymą).
+
+**Klientas** _(Client)_
+Programa ar paslauga, kuri siunčia užklausas į serverį ar API. Pvz., jūsų programa yra klientas, o ChatGPT serveris – tiekėjas. Klientas inicijuoja pokalbį, serveris atsako.
 
 **OCR** _(Optical Character Recognition – optinis simbolių atpažinimas)_
 Technologija, paverčianti vaizdus ar skenuotus dokumentus į mašininio skaitomo tekstą. ChatGPT Vision naudoja OCR analizuojant nuotraukas su tekstu.
@@ -134,6 +141,10 @@ Neformalus terminas kodavimui su DI pagalba, kai „jaučiate" kryptį ir DI rea
 ---
 
 ## 4. Automatizavimas ir agentai
+
+
+**JSON** (JavaScript Object Notation)
+Universalus duomenų formatas, naudojamas programoms „kalbėtis" tarpusavyje. Atrodo kaip tekstas su raktais ir reikšmėmis: `{"vardas": "Ona", "amžius": 30}`. DI API atsakymus dažnai grąžina būtent JSON formatu.
 
 **No-code automatizavimas**
 Darbo srautų kūrimas be programavimo – vizualiais įrankiais jungiant programas ir automatizuojant pasikartojančias užduotis.

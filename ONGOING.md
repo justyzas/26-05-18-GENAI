@@ -315,3 +315,25 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 - **praktinis darbas:** Naudokite balso režimą susitikimo pasiruošimui; Atlikite tyrimą naudodami ChatGPT Search
 
 ---
+## **4 savaitė: Multimodalinis DI**
+
+### **Diena 1: ChatGPT Vision**
+
+- Optical Character Recognition (optinis simbolių atpažinimas). DI naudoja tam kad nuskaitytų tekstą dokumentuose;
+- OCR, UI ir diagramų supratimas
+- Struktūros išgavimas promptais (sąrašai/JSON)
+- Ribos: skaičiavimas, labai smulkus/pasuktas tekstas
+- Kainos pagrindai: vaizdai kaip žetonai
+- **praktinis darbas:** Išanalizuokite 3 vaizdus ir tobulinkite prompts
+---
+
+- GEN AI vs GEN AI Agentas. Kas tai?
+
+### Agento pavyzdys
+1. Atėjo laiškas
+2. Outlook API -> Serveris
+3. Serveris -> gauna laiško turinį, perduoda DI
+4. DI Analizuoja ir nusprendžia kokia laiško kategorija
+5. Programa duoda nurodymą Outlook API perkelti laišką į tam tikrą dėžutę
+
+- N8N - agentų ir darbo eigų kūrimo platforma

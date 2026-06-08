@@ -131,10 +131,11 @@ Kurso tikslai:
 
 ---
 
-## **4 savaitė: Multimodalis DI**
+## **4 savaitė: Multimodalinis DI**
 
 ### **Diena 1: ChatGPT Vision**
 
+- Optical Character Recognition (optinis simbolių atpažinimas). DI naudoja tam kad nuskaitytų tekstą dokumentuose;
 - OCR, UI ir diagramų supratimas
 - Struktūros išgavimas promptais (sąrašai/JSON)
 - Ribos: skaičiavimas, labai smulkus/pasuktas tekstas
