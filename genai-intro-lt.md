@@ -144,7 +144,7 @@ Kurso tikslai:
 
 ### **Diena 2: Vaizdų generavimas ir redagavimas su ChatGPT ir Qwen**
 
-- gpt-image-1: generavimas, redagavimas, variacijos
+- gpt-image-2: generavimas, redagavimas, variacijos
 - Qwen2-VL: OCR/redagavimas, atviras/vietinis
 - Kada kurį pasirinkti užduotims
 - Promptų raštai: objektas, stilius, neigiami kriterijai

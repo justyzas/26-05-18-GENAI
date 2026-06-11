@@ -337,3 +337,33 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 5. Programa duoda nurodymą Outlook API perkelti laišką į tam tikrą dėžutę
 
 - N8N - agentų ir darbo eigų kūrimo platforma
+
+### **Diena 2: Vaizdų generavimas ir redagavimas su ChatGPT ir Qwen**
+
+- gpt-image-2: generavimas, redagavimas, variacijos
+- Promptų rašymas: objektas, stilius, neigiami kriterijai
+- **praktinis darbas:** Sukurkite/redaguokite 3 rinkodaros išteklius abiem įrankiais
+---
+- N8N - automatizacijos ir agentų kūrimo platforma
+  - N8N viešasis variantas - subscription, mokama už paleidimų kiekį per tam tikrą laikotarpį;
+  - N8N privatus variantas - Įdiegta į serverį ar kompiuterį programinė įranga;
+- Workflow - Darbo eigos (automatizacijos)
+
+### **Diena 3: ElevenLabs teksto vertimas į kalbą ir Sora 2 vaizdo įrašai**
+
+- TTS, STT, dubliavimas, balso klonavimas
+- Modeliai: v3, Flash, Turbo, Multilingual
+- Valdikliai: stabilumas, stilius, delsos laikas
+- Atsakingas balso technologijų naudojimas ir diegimas
+- Promptai: objektas, judesys, kamera
+- Funkcijos: nuoseklumas, remiksavimas, automatinis garsas
+- Ribos: fizikos realistiškumas, politikos
+- Palyginkite su Veo/Kling/Ray
+- **praktinis darbas:** Dvikalbė demo garso medžiaga + subtitrai; Sugeneruokite 30 s koncepciją ir iteruokite
+---
+- Kliento ir serverio architektūra;
+- HTTP - HyperText Transfer Protocol, API's;
+  - Privatūs API (kai svetainės nesidalina resursais viešai);
+  - Vieši API (kai yra galimybė kreiptis iš išorinių svetainių)
+- HTTP testavimo įrankiai;
+- N8N pavyzdys, kreipiantis į serverį;
