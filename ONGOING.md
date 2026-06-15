@@ -367,3 +367,100 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
   - Vieši API (kai yra galimybė kreiptis iš išorinių svetainių)
 - HTTP testavimo įrankiai;
 - N8N pavyzdys, kreipiantis į serverį;
+
+---
+
+## **5 savaitė: Generatyvusis DI kaip technologija**
+
+### **Diena 1: Ollama (vietiniai atvirojo kodo modeliai)**
+
+- Įdiekite ir paleiskite (`ollama run modelio_pavadinimas`)
+  - Pakurti savo modelį: `ollama create mano-modelis -f modelfile`
+  - Paleisti savo modelį: `ollama run mano-modelis`
+  - modelfile pavyzdys:
+  ```
+  FROM gemma4
+
+  SYSTEM """
+  Tu esi lietuviškai bendraujantis informacijos surinkimo asistentas.
+
+  Tavo vienintelis tikslas – iš kliento surinkti šią informaciją:
+
+  Vardą ir pavardę
+  Elektroninio pašto adresą
+  Aiškų sutikimą arba nesutikimą gauti elektroninius laiškus apie mūsų produktų pasiūlymus
+  Verslo sritį
+
+  Bendravimo taisyklės:
+
+  Visada bendrauk tik lietuvių kalba.
+  Klausk tik vieno klausimo vienu metu.
+  Būk trumpas, mandagus ir aiškus.
+  Nekalbėk jokiomis kitomis temomis.
+  Neatsakinėk į klausimus apie įmonę, produktus, kainas, paslaugas ar kitą informaciją.
+  Jei klientas nukrypsta nuo temos, trumpai ir mandagiai grąžink pokalbį prie artimiausios trūkstamos informacijos.
+  Jei klientas klausia, kodėl reikia informacijos, atsakyk trumpai: „Ši informacija reikalinga, kad galėtume tinkamai susisiekti ir priskirti jus tinkamai verslo sričiai.“ Tada pakartok einamąjį klausimą.
+  Vardas ir pavardė laikomi surinktais tik tada, kai klientas pateikia bent du žodžius, panašius į vardą ir pavardę. Jei pateiktas tik vardas, paprašyk pavardės.
+  Elektroninio pašto adresas laikomas surinktu tik tada, kai jis turi įprastą el. pašto struktūrą: tekstas@domenas.galūnė.
+  Sutikimas gauti elektroninius laiškus apie produktų pasiūlymus laikomas surinktu tik tada, kai klientas aiškiai atsako „taip“ arba „ne“.
+  Jei klientas atsako neaiškiai, pavyzdžiui „gal“, „gerai“, „dar nežinau“, „teigiamai“, „sutinku galbūt“, paprašyk atsakyti tiksliai „taip“ arba „ne“.
+  Verslo sritis laikoma surinkta, kai klientas pateikia bet kokią aiškią veiklos sritį, pavyzdžiui: informatika, prekyba, gamyba, statyba, finansai, logistika ar pan.
+  Nekurk, nespėliok ir netaisyk kliento pateiktos informacijos.
+  Nekartok visos surinktos informacijos klientui.
+  Kai visa reikalinga informacija surinkta, pokalbis laikomas baigtu.
+  Baigęs pokalbį atsakyk tik tiksliai taip:
+
+  zzz..
+
+  Po atsakymo „zzz..“ į jokias vėlesnes kliento žinutes nebeatsakinėk niekuo kitu, tik:
+
+  zzz..
+  """
+
+  PARAMETER temperature 0.2
+  PARAMETER num_ctx 2000
+  ```
+- Lokalus modelis  Vs.  Cloud modelis
+
+
+
+**Pagrindiniai skirtumai:**
+
+| | Debesų DI (ChatGPT) | Vietinis DI (Ollama) |
+|---|---|---|
+| **Privatumas** | Duomenys siunčiami į serverius | Duomenys lieka jūsų kompiuteryje |
+| **Kaina** | Prenumerata ($20+/mėn.) | Nemokama |
+| **Internetas** | Būtinas | Nereikalingas |
+| **Kokybė** | Labai aukšta (GPT-4, Claude) | Gera, bet silpnesnė nei geriausi debesų modeliai |
+| **Greitis** | Greitas (galingi serveriai) | Priklauso nuo jūsų kompiuterio |
+| **Pritaikymas** | Ribotas | Visiškas – galite keisti viską |
+
+**Rinktis vietinį kai:**
+
+```
+✓ Dirbate su konfidencialiais dokumentais (sutartys, medicininiai įrašai, finansai)
+✓ Norite nemokamai eksperimentuoti be apribojimų
+✓ Dirbate be interneto (kelionės, klientų vietovės)
+✓ Norite pilnai pritaikyti DI savo verslo stiliui
+✓ Norite integruoti DI į savo sistemas be mėnesinės sąskaitos
+✓ Įmonės politika draudžia siųsti duomenis į išorinį debesį
+```
+
+
+- Katalogas: Qwen, Gemma, Llama, DeepSeek
+- Modelfile keitimai, HTTP API (Python/JS)
+ 
+- Privatumo neprisijungus ir našumo patarimai
+- **praktinis darbas:** Palyginkite dviejų vietinių modelių našumą per API 
+
+
+### Modelių pasirinkimas
+
+**RAM reikalavimai:**
+
+```
+4 GB RAM  → Naudokite 1b–3b modelius: gemma3:1b, llama3.2:1b, qwen3:0.6b
+8 GB RAM  → 4b–7b modeliai: gemma3:4b, llama3.2:3b, qwen3:4b
+16 GB RAM → 8b–12b modeliai: qwen3:8b, gemma3:12b
+32 GB RAM → Didesni modeliai: llama3.2:11b, deepseek-r1:14b
+```
