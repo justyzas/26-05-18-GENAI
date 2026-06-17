@@ -315,6 +315,7 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 - **praktinis darbas:** Naudokite balso režimą susitikimo pasiruošimui; Atlikite tyrimą naudodami ChatGPT Search
 
 ---
+
 ## **4 savaitė: Multimodalinis DI**
 
 ### **Diena 1: ChatGPT Vision**
@@ -325,11 +326,13 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 - Ribos: skaičiavimas, labai smulkus/pasuktas tekstas
 - Kainos pagrindai: vaizdai kaip žetonai
 - **praktinis darbas:** Išanalizuokite 3 vaizdus ir tobulinkite prompts
+
 ---
 
 - GEN AI vs GEN AI Agentas. Kas tai?
 
 ### Agento pavyzdys
+
 1. Atėjo laiškas
 2. Outlook API -> Serveris
 3. Serveris -> gauna laiško turinį, perduoda DI
@@ -343,7 +346,9 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 - gpt-image-2: generavimas, redagavimas, variacijos
 - Promptų rašymas: objektas, stilius, neigiami kriterijai
 - **praktinis darbas:** Sukurkite/redaguokite 3 rinkodaros išteklius abiem įrankiais
+
 ---
+
 - N8N - automatizacijos ir agentų kūrimo platforma
   - N8N viešasis variantas - subscription, mokama už paleidimų kiekį per tam tikrą laikotarpį;
   - N8N privatus variantas - Įdiegta į serverį ar kompiuterį programinė įranga;
@@ -360,7 +365,9 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 - Ribos: fizikos realistiškumas, politikos
 - Palyginkite su Veo/Kling/Ray
 - **praktinis darbas:** Dvikalbė demo garso medžiaga + subtitrai; Sugeneruokite 30 s koncepciją ir iteruokite
+
 ---
+
 - Kliento ir serverio architektūra;
 - HTTP - HyperText Transfer Protocol, API's;
   - Privatūs API (kai svetainės nesidalina resursais viešai);
@@ -378,6 +385,7 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
   - Pakurti savo modelį: `ollama create mano-modelis -f modelfile`
   - Paleisti savo modelį: `ollama run mano-modelis`
   - modelfile pavyzdys:
+
   ```
   FROM gemma4
 
@@ -420,20 +428,19 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
   PARAMETER temperature 0.2
   PARAMETER num_ctx 2000
   ```
-- Lokalus modelis  Vs.  Cloud modelis
 
-
+- Lokalus modelis Vs. Cloud modelis
 
 **Pagrindiniai skirtumai:**
 
-| | Debesų DI (ChatGPT) | Vietinis DI (Ollama) |
-|---|---|---|
-| **Privatumas** | Duomenys siunčiami į serverius | Duomenys lieka jūsų kompiuteryje |
-| **Kaina** | Prenumerata ($20+/mėn.) | Nemokama |
-| **Internetas** | Būtinas | Nereikalingas |
-| **Kokybė** | Labai aukšta (GPT-4, Claude) | Gera, bet silpnesnė nei geriausi debesų modeliai |
-| **Greitis** | Greitas (galingi serveriai) | Priklauso nuo jūsų kompiuterio |
-| **Pritaikymas** | Ribotas | Visiškas – galite keisti viską |
+|                 | Debesų DI (ChatGPT)            | Vietinis DI (Ollama)                             |
+| --------------- | ------------------------------ | ------------------------------------------------ |
+| **Privatumas**  | Duomenys siunčiami į serverius | Duomenys lieka jūsų kompiuteryje                 |
+| **Kaina**       | Prenumerata ($20+/mėn.)        | Nemokama                                         |
+| **Internetas**  | Būtinas                        | Nereikalingas                                    |
+| **Kokybė**      | Labai aukšta (GPT-4, Claude)   | Gera, bet silpnesnė nei geriausi debesų modeliai |
+| **Greitis**     | Greitas (galingi serveriai)    | Priklauso nuo jūsų kompiuterio                   |
+| **Pritaikymas** | Ribotas                        | Visiškas – galite keisti viską                   |
 
 **Rinktis vietinį kai:**
 
@@ -446,13 +453,11 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 ✓ Įmonės politika draudžia siųsti duomenis į išorinį debesį
 ```
 
-
 - Katalogas: Qwen, Gemma, Llama, DeepSeek
 - Modelfile keitimai, HTTP API (Python/JS)
- 
-- Privatumo neprisijungus ir našumo patarimai
-- **praktinis darbas:** Palyginkite dviejų vietinių modelių našumą per API 
 
+- Privatumo neprisijungus ir našumo patarimai
+- **praktinis darbas:** Palyginkite dviejų vietinių modelių našumą per API
 
 ### Modelių pasirinkimas
 
@@ -464,3 +469,24 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 16 GB RAM → 8b–12b modeliai: qwen3:8b, gemma3:12b
 32 GB RAM → Didesni modeliai: llama3.2:11b, deepseek-r1:14b
 ```
+
+---
+
+### **Diena 2: OpenAI, Google AI Studio ir OpenRouter**
+
+- OpenAI Responses API + įrankiai
+- Gemini 2.5 lygmenys ir Live API
+- Palyginkite kainas/kontekstą/saugą
+- Kryžminės platformos (openrouter) darbo srautų raštai
+- Vieninga API, maršrutizavimas, atsarginiai keliai, ZDR
+  - URL adreso dalis, einanti už domeno PVZ: https://openrouter.ai **_/api/v1/models_** - yra maršrutas
+  - **_ZDR_** - Yra Zero Data Retention (Privatumo privilegija). Kai DI tiekiančios įmonės neišsaugo istorijos atsakymų savo DB. O log'ai rodo tik meta-duomenis apie pačią užklausą.
+  ***
+- Kaip naudoti skirtingus tiekėjus naudojant N8N?
+  - API Raktas - Yra identifikacinis tekstas, leidžiantis užklausų metu susieti mūsų paskyros kreditus/naudojimą su realiomis įvykusiomis užklausomis. **_API raktą galima traktuoti kaip slaptažodį_** - svarbu juo nesidalinti su niekuo kitu.
+  - AI agent Node - prijungiamas modelis, suteikiamas atminties dydis.
+  - AI agent - model subnode - Iš AI agento išplaukiantis sub-node, atsakingas už DI modelio parinkimą ir autentifikavimą
+  - AI agent - memory subnode - Iš AI agento išplaukiantis sub-node, atsakingas už DI atmintį, pasirenkama kiek user žinučių modelis atsimena.
+- Srautinimas, struktūrizuotos išvestys, talpyklavimas
+- Kada naudoti vietoje gimtųjų API
+- **praktinis darbas:** Tas pats asistentas abiejose; palyginkite; Palyginkite du modelius vienai užduočiai
