@@ -489,4 +489,19 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
   - AI agent - memory subnode - Iš AI agento išplaukiantis sub-node, atsakingas už DI atmintį, pasirenkama kiek user žinučių modelis atsimena.
 - Srautinimas, struktūrizuotos išvestys, talpyklavimas
 - Kada naudoti vietoje gimtųjų API
-- **praktinis darbas:** Tas pats asistentas abiejose; palyginkite; Palyginkite du modelius vienai užduočiai
+- **praktinis darbas:** Tas pats asistentas abiejose aplinkose palyginkite; Palyginkite du modelius vienai užduočiai
+
+
+### **Diena 3: Lovable.dev svetainė, CODEX agentas, demokratizuotas aplikacijų kūrimas**
+
+- Kaip agentiniai įrankiai demokratizuoja programavimą?
+- lovable.dev svetainės kūrimas pokalbiais
+- Išdėstymo/turinio iteracijos su promptais
+- Kada rinktis vietoje individualaus kodo/CMS (Turinio valdymo sistemų)
+- CODEX, openai siūlomas agentinis kodavimo įrankis.
+- Alternatyvūs įrankiai: bolt.new, v0.dev (Vercel) – panašios platformos, skirtingos stiprybės
+- Cloud platformos (lovable.dev, v0.dev, bolt.new), kuriančios svetaines neretai siūlo ir svetainių talpinimą, tačiau rimtesnės integracijos (prisijungimai, duomenų bazės, personalinių failų pridėjimas) būna integruotos, kas reiškia kad vėliau bus sunkesnis perkėlimas / reikės perkurti funkcionalias dalis iš naujo
+- Svetainės integracijos: kontaktų formos, Google Analytics, trečiųjų šalių servisai
+- **Ribos**: kada vis dar reikia tikro kūrėjo (autentifikacija, duomenų bazės, sudėtinga logika)
+
+- **praktinis darbas:** Išleiskite vieno puslapio svetainę 

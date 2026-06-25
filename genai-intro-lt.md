@@ -184,12 +184,16 @@ Kurso tikslai:
 - Kada naudoti vietoje gimtųjų API
 - **praktinis darbas:** Tas pats asistentas abiejose; palyginkite; Palyginkite du modelius vienai užduočiai
 
-### **Diena 3: Lovable.dev svetainė**
+### **Diena 3: Lovable.dev svetainė, CODEX agentas, demokratizuotas aplikacijų kūrimas**
 
-- Kūrimas pokalbiais ir šablonai
+- Kaip agentiniai įrankiai demokratizuoja programavimą?
+- lovable.dev svetainės kūrimas pokalbiais
 - Išdėstymo/turinio iteracijos su promptais
 - Kada rinktis vietoje individualaus kodo/CMS
-- Publikuokite peržiūras ir rinkite grįžtamąjį ryšį
+- CODEX, openai siūlomas agentinis kodavimo įrankis
+- Alternatyvūs įrankiai: bolt.new, v0.dev (Vercel) – panašios platformos, skirtingos stiprybės
+- Svetainės integracijos: kontaktų formos, Google Analytics, trečiųjų šalių servisai
+- Ribos: kada vis dar reikia tikro kūrėjo (autentikacija, duomenų bazės, sudėtinga logika)
 - **praktinis darbas:** Išleiskite vieno puslapio svetainę
 
 ## **6 savaitė: Pažangus generatyvusis DI**
@@ -200,7 +204,14 @@ Kurso tikslai:
 - Atsargumo aspektai: nutekėjimas, perpamokymas, atkartojamumas
 - Susiekite įverčius su domeno/konteksto poreikiais
 - Trumpasis sąrašas pagal kainą/greitį/privatumą
+---
+- MCP (Model Context Protocol) serveriai;
+- MCP katalogas (smithery.ai, mcp.directory)
+- Codex Skills, MCP
+- MCP integravimas į n8n
+
 - **praktinis darbas:** Svertinė 3 modelių vertinimo kortelė
+
 
 ### **Diena 2: Kaip sekti DI naujienas**
 
