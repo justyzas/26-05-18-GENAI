@@ -196,6 +196,9 @@ Kurso tikslai:
 - Ribos: kada vis dar reikia tikro kūrėjo (autentikacija, duomenų bazės, sudėtinga logika)
 - **praktinis darbas:** Išleiskite vieno puslapio svetainę
 
+---
+
+
 ## **6 savaitė: Pažangus generatyvusis DI**
 
 ### **Diena 1: LLM reitingai (modelių pasirinkimas)**
@@ -207,7 +210,7 @@ Kurso tikslai:
 ---
 - MCP (Model Context Protocol) serveriai;
 - MCP katalogas (smithery.ai, mcp.directory)
-- Codex Skills, MCP
+- Codex + MCP
 - MCP integravimas į n8n
 
 - **praktinis darbas:** Svertinė 3 modelių vertinimo kortelė

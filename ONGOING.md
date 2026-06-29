@@ -505,3 +505,83 @@ KAINA =  ((650 x 2$) + (260 x 8$) / 1 000 000) = (1300 + 2080) / 1 000 000 = 338
 - **Ribos**: kada vis dar reikia tikro kūrėjo (autentifikacija, duomenų bazės, sudėtinga logika)
 
 - **praktinis darbas:** Išleiskite vieno puslapio svetainę 
+
+---
+
+## **6 savaitė: Pažangus generatyvusis DI**
+
+### **Diena 1: LLM reitingai (modelių pasirinkimas)**
+
+- Metrikos: 
+  - MMLU (Massive Multitask Language Understanding) - Plačiųjų žinių testai skirtingose mokslo srityse (Taikomoji matematika, Aukštoji matematika, Fizika, Kvantinė mechanika, Chemija, Teisė, ir t.t __viso 57 temos__)
+  - MT‑Bench (Multi-Turn Benchmark) - įvertina, kaip gerai dirbtinis intelektas išlaiko kontekstą, seka tikslus ir nuosekliai reaguoja per kelis dialogus/ilgą pokalbį.
+  - Arena Elo - Platforma, kurioje žmonės gali vertinti skirtingų modelių atsakymus.
+- Atsargumo aspektai: nutekėjimas, perpamokymas, atkartojamumas
+    - Kartais paminėtos metrikos, ar reitingai platformose gali neteisingai suklaidinti.
+    - Nauji modeliai gali būti apmokinami medžiaga iš modelius vertinančių testų, ko pasekoje modeliai išmoksta ne temą - o kaip atsakyti į testo klausimus.
+    
+
+**Kaip tai pasireiškia LLM:**
+
+```
+Testas A (žinomas):  Modelis gauna 92% ✓
+Testas B (naujas):   Modelis gauna 71% ✗
+
+Skirtumas = ~perpamokymas arba nutekėjimas
+```
+> Kai matote naują modelį su „rekordiniu" balu – palaukite 2–4 savaičių. Nepriklausomi tyrėjai paprastai patikrins ir paneigs arba patvirtins.
+
+
+- Susiekite įverčius su tematikos poreikiais
+  
+```
+JŪSŲ TIKSLAS           SVARBU            MAŽIAU SVARBU
+─────────────────────  ────────────────  ─────────────
+El. laiškų rašymas     Kalbos kokybė     Matematika
+                       Tonas/stilius
+                       Greitis
+
+Dokumentų analizė      Konteksto dydis   Kūrybiškumas
+                       Tikslumas
+                       Cituojamumas
+
+Kodo kūrimas           Kodavimo balai    Rašymo stilius
+                       Klaidų taisymas
+                       Greitis
+
+Kūrybinis rašymas      Stilius           Faktų tikslumas
+                       Originalumas
+                       Tonas
+
+Privatūs duomenys      Privatumas        Greitis
+                       Vietinis vykdymas
+                       GDPR atitiktis
+```
+
+
+
+- Trumpasis sąrašas pagal kainą/greitį/privatumą
+
+```
+Klausimai sau:
+1. Ką dažniausiai darau su DI? (rašau, analizuoju, kuriu, koduoju)
+2. Kiek žodžių vidutiniškai mano užduotis? (trumpa / vidutinė / ilga)
+3. Ar dirbau su jautriais duomenimis? (asmens duomenys, verslo paslaptys) (ZDR platformos verslui tokios OpenAI, Google, Claude)
+4. Kaip greitai reikia atsakymo? (iš karto / galiu palaukti)
+5. Koks biudžetas? (nemokamas / iki 20€/mėn. / neribotas)
+```
+
+---
+- MCP (Model Context Protocol) serveriai suteikia:
+  - Įrankiai: Vykdomos funkcijos, kurias AI programos gali iškviesti veiksmams atlikti (pvz., failų operacijos, API kvietimai, duomenų bazių užklausos)
+  - Ištekliai: Duomenų šaltiniai, teikiantys kontekstinę informaciją AI programoms (pvz., failų turinys, duomenų bazių įrašai, API atsakymai)
+  - Raginiai: Daugkartinio naudojimo šablonai, padedantys struktūrizuoti sąveiką su kalbos modeliais (pvz., sisteminiai raginimai, kelių pavyzdžių demonstracijos)
+- MCP katalogas (smithery.ai, mcp.directory)
+
+- **praktinis darbas:** Svertinė 3 modelių vertinimo kortelė
+
+
+---
+- MCP integravimas į n8n
+- Codex + MCP
+---
