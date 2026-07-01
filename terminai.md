@@ -45,6 +45,12 @@ Pažangūs LLM, galintys spręsti sudėtingesnes logines ir matematines problema
 **Deterministinis**
 Reiškia toks, kurio rezultatą visiškai lemia pradinės sąlygos ir taisyklės: esant toms pačioms sąlygoms, visada gaunamas tas pats rezultatas.
 
+**Autentifikacija** _(Authentication)_
+Vartotojo arba sistemos tapatybės patvirtinimo procesas – patikrinimas, ar tas, kas prisijungia, tikrai yra tas, kuo prisistato. Dažniausiai vyksta per slaptažodį, API raktą ar prisijungimo tokeną (pvz., jungiantis prie DI API reikia pateikti API raktą, kuris patvirtina, kad užklausą siunčia teisėtas vartotojas).
+
+**MCP Gateway**
+Tarpinis serveris (proxy), valdantis prieigą prie kelių MCP serverių iš vienos vietos – autentifikaciją, teises ir stebėseną. Vietoj to, kad kiekvienas DI klientas jungtųsi tiesiogiai prie kiekvieno įrankio atskirai, jis jungiasi per vieną gateway, kuris nukreipia užklausas į tinkamus MCP serverius.
+
 ---
 
 ## 2. Platformos ir įrankiai
@@ -57,6 +63,9 @@ OpenAI modelių variantai. GPT-5 – galingiausias ir brangiausias; GPT-5-mini �
 
 **Claude** _(Anthropic)_
 Anthropic sukurtas LLM, žinomas dėl ilgo konteksto lango, atsargaus tono ir stipraus teksto analizės. Alternatyva ChatGPT.
+
+**Frontier Models/Providers** _(Pažangiausi modeliai / tiekėjai)_
+Terminas, žymintis DI kompanijas ir modelius, esančius technologijų priešakyje – šiuo metu galingiausius ir naujausius LLM. Pagrindiniai tiekėjai: OpenAI, Anthropic (Claude), Google (Gemini), Meta (Llama), X.ai (Grok). „Frontier" reiškia, kad modelis nustato naują galimybių ribą, o ne tik seka jau esamais standartais.
 
 **Gemini** _(Google)_
 Google sukurtas LLM. Integruotas su Google ekosistema (Docs, Gmail, Search). Gemini 2.5 Pro – vienas galingiausių šiuo metu.

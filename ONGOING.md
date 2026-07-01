@@ -582,6 +582,24 @@ Klausimai sau:
 
 
 ---
-- MCP integravimas į n8n
+
+### **Diena 2: Kaip sekti DI naujienas**
+
+- Šaltiniai: news.smol.ai, oficialūs modelių tinklaraščiai
+- Ritmas: savaitinė apžvalga, teiginių tikrinimas, pakeitimų sekimas
+- Įrankiai: RSS/įspėjimai, Perplexity/NotebookLM santraukos
+- Klasifikuokite naujienas: sauga, galimybės, įrankiai, politika
 - Codex + MCP
+- Playwright MCP - įrankis naršyklės automatizavimui.
+- Gmail MCP - įrankis, skirtas manipuliuoti Google mail (gmail).
 ---
+- N8N
+- Klientų registracijos sistema/formą
+
+
+### Kliento laisvas komentaras
+```
+Noriu siųsti sąskaitas per telegram, ir noriu kad jos atsirastų google drive specifinėje aplankų struktūroje. Noriu, jog sąskaitos duomenys būtų nuskaitomi naudojant DI ir išliktų privatūs.
+
+Galiausiai sąskaitos duomenys turi atsirasti Excel lentelėje.
+```

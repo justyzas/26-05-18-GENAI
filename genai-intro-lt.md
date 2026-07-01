@@ -222,7 +222,10 @@ Kurso tikslai:
 - Ritmas: savaitinė apžvalga, teiginių tikrinimas, pakeitimų sekimas
 - Įrankiai: RSS/įspėjimai, Perplexity/NotebookLM santraukos
 - Klasifikuokite naujienas: sauga, galimybės, įrankiai, politika
-- **praktinis darbas:** Susikurkite asmeninę srautą ir parenkite savaitinį suvestinį pranešimą
+---
+
+
+
 
 ### **Diena 3: GitHub Copilot (vibe coding) ir kūrimas su OpenAI Codex Cloud**
 
