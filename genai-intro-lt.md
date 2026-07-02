@@ -227,10 +227,9 @@ Kurso tikslai:
 
 
 
-### **Diena 3: GitHub Copilot (vibe coding) ir kūrimas su OpenAI Codex Cloud**
+### **Diena 3: kūrimas su kodavimo įrankiais: OpenAI Codex Cloud, Claude Code**
 
-- Vietinės užbaigos, pokalbiai, agento režimas VS Code
-- Įsidiekite plėtinį; pasirinkite modelius ir individualias instrukcijas
+- pasirinkite modelius ir individualias instrukcijas
 - Pridėkite MCP įrankių projekto specifinėms užduotims
 - Pirmiausia rašykite testus, leiskite Copilot įgyvendinti, tuomet peržiūrėkite
 - Skaitykite/keiskite/vykdykite kodą debesų aplinkose

@@ -575,7 +575,7 @@ Klausimai sau:
 - MCP (Model Context Protocol) serveriai suteikia:
   - Įrankiai: Vykdomos funkcijos, kurias AI programos gali iškviesti veiksmams atlikti (pvz., failų operacijos, API kvietimai, duomenų bazių užklausos)
   - Ištekliai: Duomenų šaltiniai, teikiantys kontekstinę informaciją AI programoms (pvz., failų turinys, duomenų bazių įrašai, API atsakymai)
-  - Raginiai: Daugkartinio naudojimo šablonai, padedantys struktūrizuoti sąveiką su kalbos modeliais (pvz., sisteminiai raginimai, kelių pavyzdžių demonstracijos)
+  - Prompt šablonų: Daugkartinio naudojimo šablonai, padedantys struktūrizuoti sąveiką su kalbos modeliais (pvz., sisteminiai raginimai, kelių pavyzdžių demonstracijos)
 - MCP katalogas (smithery.ai, mcp.directory)
 
 - **praktinis darbas:** Svertinė 3 modelių vertinimo kortelė
@@ -603,3 +603,33 @@ Noriu siųsti sąskaitas per telegram, ir noriu kad jos atsirastų google drive 
 
 Galiausiai sąskaitos duomenys turi atsirasti Excel lentelėje.
 ```
+
+
+### **Diena 3: kūrimas su kodavimo įrankiais: OpenAI Codex Cloud, Claude Code**
+
+- Įrankiai: Codex, Claude Code;
+- pasirinkite modelius ir individualias instrukcijas
+- Pridėkite MCP įrankių projekto specifinėms užduotims
+- Leiskite agentui įgyvendinti, tuomet peržiūrėkite
+- Skaitykite/keiskite/vykdykite kodą debesų aplinkose
+- Integracija su GitHub
+  - GitHub - Įrankis, leidžiantis kodą saugoti internete
+  - GitHub gali būti skirtas dirbti komandoje
+- Claude (Code), Codex, ChatGPT;
+- Fono užduotys ir kelių žingsnių užduotys, naudojant skills.
+- Sauga: MFA (Multi-Factor Authentication)/SSO(Single Sign On), audito pėdsakai kodo pakeitimams
+- Ollama, kaip prijungti agentiniams kodavimo įrankiams lokalius modelius
+
+- **praktinis darbas:** Sukurti rezervacijų sistemą naudojantis Codex arba Claude Code.
+
+### Prerekvizitai darbui atlikti
+
+- [NodeJS](https://nodejs.org/en)
+- Agentinis kodavimo įrankis (Codex, Claude Code)
+- Paminėti agentui, kad būtų naudojamas LocalStorage duomenų saugojimui arba SQLite
+
+
+
+
+
+
