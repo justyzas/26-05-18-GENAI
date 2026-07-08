@@ -628,8 +628,37 @@ Galiausiai sąskaitos duomenys turi atsirasti Excel lentelėje.
 - Agentinis kodavimo įrankis (Codex, Claude Code)
 - Paminėti agentui, kad būtų naudojamas LocalStorage duomenų saugojimui arba SQLite
 
+---
+
+## **7 savaitė: n8n DI automatizavimas ir DI agentai**
+
+### **Diena 1: Įvadas į no‑code automatizavimą ir DI agentai**
+
+- Kas yra no‑code automatizavimas ir kodėl tai svarbu verslui
 
 
 
+ - Įvadas į n8n platformą ir jos galimybes
+- n8n ir Make.com: funkcijos, kainodara ir naudojimo atvejai
+```
+                    n8n                      Make.com
+├── Sąsaja:         Techniškesnė, lankstesnė  Vizualiai paprastesnė
+├── Atviras kodas:  Taip (galima self-host)   Ne (tik debesija)
+├── Mazgų logika:   Linijinė, aiški           „Scenarijai" (scenarios)
+├── Kaina:          Pigesnė dideliam kiekiui  Brangesnė dideliam kiekiui
+│                    vykdymų                   operacijų
+└── Geriausia:      Kai reikia lankstumo ir   Kai norite greitai ir
+                     kontrolės                 be techninių detalių
+```
+- Vykdymu grįsta ir užduotimis grįsta kainodara
+- n8n šablonų biblioteka (10 000+ bendruomenės šablonų) https://n8n.io/workflows/
+- Kas laikoma „įrankiu" generatyviajame DI
+- Skirtumas tarp DI įrankių ir DI agentų
+
+- Kodėl 2025 ir 2026‑ieji – DI agentų metai
+- DI agentų architektūra ir autonomija
+- Verslo taikymo atvejai DI agentams
 
 
+- **Namų darbas:** Pagalvoti, nuspręsti, kokia bus jūsų baigiamojo darbo tema/automatizacija.
+- **praktinis darbas:** Ištyrinėkite n8n sąsają ir peržiūrėkite šablonus; Suplanuokite konceptualių DI agentų darbo srautus.
