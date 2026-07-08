@@ -249,7 +249,7 @@ Kurso tikslai:
 - n8n šablonų biblioteka (600+ bendruomenės šablonų)
 - Kas laikoma „įrankiu" generatyviajame DI
 - Skirtumas tarp DI įrankių ir DI agentų
-- Kodėl 2025‑ieji – DI agentų metai
+- Kodėl 2025 ir 2026‑ieji – DI agentų metai
 - DI agentų architektūra ir autonomija
 - Verslo taikymo atvejai DI agentams
 - **praktinis darbas:** Ištyrinėkite n8n sąsają ir peržiūrėkite šablonus; Suplanuokite konceptualių DI agentų darbo srautus
