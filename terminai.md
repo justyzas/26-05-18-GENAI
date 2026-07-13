@@ -147,6 +147,9 @@ Nuostata, kuri neleidžia API tiekėjui saugoti jūsų duomenų savo serveriuose
 **Vibe coding**
 Neformalus terminas kodavimui su DI pagalba, kai „jaučiate" kryptį ir DI realizuoja – minimaliai rašant kodą rankiniu būdu.
 
+
+**HTTP** _(HyperText Transfer Protocol)_
+Visuotinai naudojamas protokolas, perduoti tekstui iš vieno kompiuterio į kitą.
 ---
 
 ## 4. Automatizavimas ir agentai

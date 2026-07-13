@@ -263,8 +263,9 @@ Kurso tikslai:
 - Agentų prijungimas prie DI modelių
 - **praktinis darbas:** Sukurkite ir išbandykite kalendoriaus ir Gmail agentus
 
-### **Diena 3: Daugelio agentų sistemos**
+### **Diena 3: Paieškos sistemos integravimas agentui, Daugelio įrankių agentas**
 
+- Kai nėra tinkamos prieigos per N8N, kreipimosi į išorines sistemas per agentą kūrimas
 - Tyrimų agento kūrimas (žiniatinklio paieška + el. paštas)
 - Kelių agentų koordinavimas darbo srautuose
 - Patvirtinimo žingsniai su žmogumi grandinėje (human‑in‑the‑loop)

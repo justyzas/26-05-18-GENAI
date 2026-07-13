@@ -672,3 +672,12 @@ Galiausiai sąskaitos duomenys turi atsirasti Excel lentelėje.
 - Sukurkite Gmail agentą el. pašto automatizavimui
 - Agentų prijungimas prie DI modelių
 - **praktinis darbas:** Sukurkite ir išbandykite kalendoriaus ir Gmail agentus
+
+### **Diena 3: Paieškos sistemos integravimas agentui, Daugelio įrankių agentas**
+
+- Kai nėra tinkamos prieigos per N8N, kreipimosi į išorines sistemas per agentą kūrimas (HTTP Request Node)
+- Tyrimų agento kūrimas (žiniatinklio paieška + el. paštas)
+- Kelių agentų koordinavimas darbo srautuose
+- Patvirtinimo žingsniai su žmogumi grandinėje (human‑in‑the‑loop)
+- Klaidų tvarkymas ir stebėsena
+- **praktinis darbas:** Sukurkite išsamų nuo tyrimo iki el. laiško agentą
