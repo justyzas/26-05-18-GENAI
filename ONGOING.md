@@ -662,3 +662,13 @@ Galiausiai sąskaitos duomenys turi atsirasti Excel lentelėje.
 
 - **Namų darbas:** Pagalvoti, nuspręsti, kokia bus jūsų baigiamojo darbo tema/automatizacija.
 - **praktinis darbas:** Ištyrinėkite n8n sąsają ir peržiūrėkite šablonus; Suplanuokite konceptualių DI agentų darbo srautus.
+
+
+### **Diena 2: Pirmųjų agentų kūrimas**
+
+- n8n parengimas (debesijoje arba savarankiškai talpinant)
+- Darbo srautai, mazgai ir trigeriai
+- Sukurkite Google Calendar agentą planavimui
+- Sukurkite Gmail agentą el. pašto automatizavimui
+- Agentų prijungimas prie DI modelių
+- **praktinis darbas:** Sukurkite ir išbandykite kalendoriaus ir Gmail agentus
