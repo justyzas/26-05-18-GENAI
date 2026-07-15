@@ -694,10 +694,7 @@ A - Augmented (Modifikuotas)
 G - Generation (Generavimas)
 
  - Retrieve‑then‑generate pagrindai (fragmentai, įterpiniai, vektorių saugykla)
-
-
 - Išgavimo strategijos: top‑k, filtrai
-<!--
 - Kada naudoti RAG, o kada pritaikymą (fine‑tuning)
-- Atsakymų pagrindimas ir šaltinių citavimas
-- **praktinis darbas:** Sukurkite paprastą RAG srautą ir apklauskite savo dokumentus -->
+- Atsakymų pagrindimas ir šaltinių citavimas, naudojant meta-duomenis naujiems įrašams vektorinėje duomenų bazėje
+- **praktinis darbas:** Sukurkite paprastą RAG srautą ir apklauskite savo dokumentus
