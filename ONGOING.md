@@ -681,3 +681,23 @@ Galiausiai sąskaitos duomenys turi atsirasti Excel lentelėje.
 - Patvirtinimo žingsniai su žmogumi grandinėje (human‑in‑the‑loop)
 - Klaidų tvarkymas ir stebėsena
 - **praktinis darbas:** Sukurkite išsamų nuo tyrimo iki el. laiško agentą
+
+---
+
+
+## **8 savaitė: n8n DI automatizavimas praktikoje**
+
+### **Diena 1: Įvadas į RAG**
+
+R - Retrieval (Gavimu)
+A - Augmented (Modifikuotas)
+G - Generation (Generavimas)
+
+ - Retrieve‑then‑generate pagrindai (fragmentai, įterpiniai, vektorių saugykla)
+
+
+- Išgavimo strategijos: top‑k, filtrai
+<!--
+- Kada naudoti RAG, o kada pritaikymą (fine‑tuning)
+- Atsakymų pagrindimas ir šaltinių citavimas
+- **praktinis darbas:** Sukurkite paprastą RAG srautą ir apklauskite savo dokumentus -->
