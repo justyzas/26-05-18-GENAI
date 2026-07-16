@@ -689,7 +689,7 @@ Galiausiai sąskaitos duomenys turi atsirasti Excel lentelėje.
 
 ### **Diena 1: Įvadas į RAG**
 
-R - Retrieval (Gavimu)
+R - Retrieval (Išgavimu)
 A - Augmented (Modifikuotas)
 G - Generation (Generavimas)
 
@@ -698,3 +698,13 @@ G - Generation (Generavimas)
 - Kada naudoti RAG, o kada pritaikymą (fine‑tuning)
 - Atsakymų pagrindimas ir šaltinių citavimas, naudojant meta-duomenis naujiems įrašams vektorinėje duomenų bazėje
 - **praktinis darbas:** Sukurkite paprastą RAG srautą ir apklauskite savo dokumentus
+
+
+### **Diena 2: Srities eksperto DI agentas**
+
+- Apibrėžkite apimtį, įrankius/jungtis ir saugiklius
+- Naudokite išgavimą/atmintį domeno pagrindimui
+- Klaidų tvarkymas ir žmogaus įsikišimas (HITL)
+- Vertinkite atsakymų tikslumą ir aprėptį
+
+- **praktinis darbas:** Įgyvendinkite eksperto agentą virš savo dokumentų + žiniatinklio paieška
