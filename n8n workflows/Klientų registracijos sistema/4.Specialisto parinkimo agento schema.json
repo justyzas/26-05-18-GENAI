@@ -1,0 +1,240 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "routing_status",
+    "selected_specialist",
+    "availability",
+    "selection_reason",
+    "fallback_reason",
+    "ranked_specialists",
+    "customer_email",
+    "specialist_email"
+  ],
+  "properties": {
+    "routing_status": {
+      "type": "string",
+      "enum": [
+        "assigned_now",
+        "assigned_next_available",
+        "no_specialist_available"
+      ],
+      "description": "Specialisto parinkimo statusas."
+    },
+    "selected_specialist": {
+      "anyOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "name",
+            "email",
+            "department",
+            "position"
+          ],
+          "properties": {
+            "id": {
+              "type": "number",
+              "description": "Pasirinkto specialisto ID iš pateikto specialistų sąrašo."
+            },
+            "name": {
+              "type": "string",
+              "description": "Pasirinkto specialisto vardas ir pavardė."
+            },
+            "email": {
+              "type": "string",
+              "format": "email",
+              "description": "Pasirinkto specialisto el. paštas."
+            },
+            "department": {
+              "type": "string",
+              "description": "Pasirinkto specialisto departamentas."
+            },
+            "position": {
+              "type": "string",
+              "description": "Pasirinkto specialisto pareigos."
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Pasirinktas specialistas arba null, jei specialisto parinkti nepavyko."
+    },
+    "availability": {
+      "anyOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "is_available_now",
+            "starts_in_hours",
+            "next_working_day_i18n",
+            "next_working_day_lt",
+            "next_working_hours_start",
+            "next_working_hours_end",
+            "availability_label"
+          ],
+          "properties": {
+            "is_available_now": {
+              "type": "boolean",
+              "description": "Ar pasirinktas specialistas šiuo metu dirba."
+            },
+            "starts_in_hours": {
+              "type": "number",
+              "description": "Po kiek valandų specialistas galės pradėti darbą. Jei dirba dabar, reikšmė yra 0."
+            },
+            "next_working_day_i18n": {
+              "type": "string",
+              "enum": [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                ""
+              ],
+              "description": "Artimiausia pasirinkto specialisto darbo diena anglų kalba."
+            },
+            "next_working_day_lt": {
+              "type": "string",
+              "enum": [
+                "Sekmadienis",
+                "Pirmadienis",
+                "Antradienis",
+                "Trečiadienis",
+                "Ketvirtadienis",
+                "Penktadienis",
+                "Šeštadienis",
+                ""
+              ],
+              "description": "Artimiausia pasirinkto specialisto darbo diena lietuvių kalba."
+            },
+            "next_working_hours_start": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 23,
+              "description": "Artimiausio darbo laiko pradžios valanda."
+            },
+            "next_working_hours_end": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 24,
+              "description": "Artimiausio darbo laiko pabaigos valanda."
+            },
+            "availability_label": {
+              "type": "string",
+              "description": "Trumpas žmogui suprantamas pasirinkto specialisto pasiekiamumo aprašymas."
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Pasirinkto specialisto pasiekiamumo informacija arba null, jei specialistas neparinktas."
+    },
+    "selection_reason": {
+      "type": "string",
+      "description": "Trumpas paaiškinimas, kodėl pasirinktas būtent šis specialistas."
+    },
+    "fallback_reason": {
+      "type": "string",
+      "description": "Paaiškinimas, kodėl nepavyko parinkti specialisto. Jei specialistas parinktas, grąžinama tuščia reikšmė."
+    },
+    "ranked_specialists": {
+      "type": "array",
+      "description": "Specialistų sąrašas nuo tinkamiausio iki mažiausiai tinkamo.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "email",
+          "is_available_now",
+          "starts_in_hours",
+          "match_reason"
+        ],
+        "properties": {
+          "id": {
+            "type": "number",
+            "description": "Specialisto ID."
+          },
+          "name": {
+            "type": "string",
+            "description": "Specialisto vardas ir pavardė."
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "description": "Specialisto el. paštas."
+          },
+          "is_available_now": {
+            "type": "boolean",
+            "description": "Ar specialistas šiuo metu dirba."
+          },
+          "starts_in_hours": {
+            "type": "number",
+            "description": "Po kiek valandų specialistas galės pradėti darbą. Jei dirba dabar, reikšmė 0."
+          },
+          "match_reason": {
+            "type": "string",
+            "description": "Kodėl šis specialistas yra šioje eiliškumo pozicijoje."
+          }
+        }
+      }
+    },
+    "customer_email": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "to",
+        "subject",
+        "html_body"
+      ],
+      "properties": {
+        "to": {
+          "type": "string",
+          "format": "email",
+          "description": "Kliento el. pašto adresas."
+        },
+        "subject": {
+          "type": "string",
+          "description": "Laiško klientui tema."
+        },
+        "html_body": {
+          "type": "string",
+          "description": "Pilnas HTML formato laiško turinys klientui."
+        }
+      }
+    },
+    "specialist_email": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "to",
+        "subject",
+        "html_body"
+      ],
+      "properties": {
+        "to": {
+          "type": "string",
+          "description": "Pasirinkto specialisto el. paštas arba tuščia reikšmė, jei specialistas neparinktas ir nėra fallback gavėjo."
+        },
+        "subject": {
+          "type": "string",
+          "description": "Laiško specialistui tema."
+        },
+        "html_body": {
+          "type": "string",
+          "description": "Pilnas HTML formato laiško turinys specialistui."
+        }
+      }
+    }
+  }
+}

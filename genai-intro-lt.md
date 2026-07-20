@@ -301,3 +301,4 @@ Kurso tikslai:
 - Apsaugokite paslaptis ir teises
 - Demonstracija ir dokumentai perdavimui
 - **praktinis darbas:** Sukurkite pradinį srautą ir atlikite bandomąjį paleidimą su testiniais duomenimis; Paleiskite nuo pradžios iki pabaigos, sutvarkykite problemas ir pristatykite rezultatus
+  

@@ -708,3 +708,15 @@ G - Generation (Generavimas)
 - Vertinkite atsakymų tikslumą ir aprėptį
 
 - **praktinis darbas:** Įgyvendinkite eksperto agentą virš savo dokumentų + žiniatinklio paieška
+
+
+### **Diena 3: n8n projektas – kūrimas ir testavimas**
+
+- Pasirinkite naudojimo atvejį ir sėkmės metrikas
+- Sukonstruokite srautą: trigeriai, mazgai, patvirtinimai (HITL)
+- Pridėkite žurnalus, bandymų pakartojimą ir klaidų kelius
+- Prijunkite LLM(-us) ir išorines API
+- Testų atvejai, limitai ir sąnaudos
+- Stebėsena, įspėjimai ir audito pėdsakai
+- **praktinis darbas:** Sukurkite pradinį srautą ir atlikite bandomąjį paleidimą su testiniais duomenimis; Paleiskite nuo pradžios iki pabaigos, sutvarkykite problemas ir pristatykite rezultatus.
+  

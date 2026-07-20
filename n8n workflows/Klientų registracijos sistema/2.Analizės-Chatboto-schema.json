@@ -1,0 +1,90 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "full_name",
+    "email",
+    "service_category",
+    "identified_needs",
+    "technologies_or_integrations",
+    "priority",
+    "lead_temperature",
+    "summary",
+    "recommended_next_step",
+    "suggested_team",
+    "missing_information_questions"
+  ],
+  "properties": {
+    "full_name": {
+      "type": "string",
+      "description": "Kliento vardas ir pavardė iš formos lauko full_name."
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Kliento el. pašto adresas iš formos lauko email."
+    },
+    "service_category": {
+      "type": "string",
+      "description": "Pagrindinė nustatyta paslaugų kategorija pagal interested_in reikšmę ir optional_comment kontekstą."
+    },
+    "identified_needs": {
+      "type": "array",
+      "description": "Konkretūs kliento norimi rezultatai, problemos ar automatizavimo poreikiai.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "technologies_or_integrations": {
+      "type": "array",
+      "description": "Komentare paminėtos sistemos, platformos, įrankiai ar technologijos.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "description": "Užklausos prioritetas pagal konkretumą ir projekto aiškumą."
+    },
+    "lead_temperature": {
+      "type": "string",
+      "enum": [
+        "cold",
+        "warm",
+        "hot"
+      ],
+      "description": "Potencialaus kliento pasirengimo lygis pradėti projektą."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Trumpa, aiški užklausos santrauka lietuvių kalba, ne ilgesnė nei 2 sakiniai."
+    },
+    "recommended_next_step": {
+      "type": "string",
+      "description": "Konkretus rekomenduojamas komandos veiksmas."
+    },
+    "suggested_team": {
+      "type": "string",
+      "enum": [
+        "DI ir automatizavimo komanda",
+        "CRM ir verslo sistemų komanda",
+        "Internetinių svetainių ir e. prekybos komanda",
+        "IT infrastruktūros ir priežiūros komanda",
+        "Pardavimų ir konsultacijų komanda"
+      ],
+      "description": "Komanda, kuriai turėtų būti perduota užklausa."
+    },
+    "missing_information_questions": {
+      "type": "array",
+      "description": "Klausimai, kuriuos verta užduoti konsultacijos metu, jei trūksta svarbios informacijos.",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
