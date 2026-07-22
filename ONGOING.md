@@ -720,3 +720,47 @@ G - Generation (Generavimas)
 - Stebėsena, įspėjimai ir audito pėdsakai
 - **praktinis darbas:** Sukurkite pradinį srautą ir atlikite bandomąjį paleidimą su testiniais duomenimis; Paleiskite nuo pradžios iki pabaigos, sutvarkykite problemas ir pristatykite rezultatus.
   
+
+
+### Pabaiga!
+
+> Kokią užduotį per savaitę atlieku bent tris kartus?
+
+Tada reiktų įvertinti ar tą užduotį verta:
+ - Atlikti su paprastu promptu;
+ - Paversti šablonu;
+ - Perkelti į ChatGPT Project;
+ - Automatizuoti su N8N;
+ - Kurti kaip agentą;
+
+ > Ne kiekvienai problemai reikia agento
+
+ ### Užduotys kuriose tinka paprastas prompt:
+
+ - Parašyti elektroninį laišką;
+ - Apibendrinti tekstą;
+ - Sugeneruoti idėjas;
+ - Paaiškinti klaidą;
+ - Pakeisti teksto toną;
+
+
+### Užduotys kuriose tinka ChatGPT projects:
+
+- Savaitinės ataskaitos;
+- Specifiniai kliento laiškai;
+- Darbui su konkrečiu klientu;
+- Kursiniams darbamas/Tyrimams;
+
+### Užduotys kai gerai yra automatizacija:
+
+Tinka kai yra aiški veiksmų seka:
+
+> Atėjo failas > nuskaityti > klasifikuoti > išsaugoti atitinkamame aplanke > įrašyti į google sheets lentelę > pranešti žmogui el. paštu
+
+
+### Didelės užduotys
+
+- Reikia laikytis tvarkos;
+- Organizuokite skirtingus flow (kad vienas flow panaudotų kitą);
+- Dideles užduotis skaidykite į mažas užduotis;
+- Automatizacijose pasirūpinkite nuodugniu testavimu;
